@@ -39,7 +39,7 @@
 
     var car = 'toyte camry';
     function myfunction(){
-        var car = Bugatti();
+        var car = 'Bugatti';
         console.log(car); //car in function scope
     }
     myfunction();
@@ -51,4 +51,4 @@
     }
     let x = 2;
     let y = 3;
-    console.log("multiplication of ",x,"and",y,"is",multiply(x,z));
+    console.log("multiplication of ",x,"and",y,"is",multiply(x,y));
